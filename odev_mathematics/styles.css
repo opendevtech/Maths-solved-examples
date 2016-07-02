@@ -1,0 +1,135 @@
+#stepcount{
+    left: 259px;
+    position: relative;
+}
+ #viewlink_que{
+    position: relative;
+	bottom: 43px;
+    left: 784px
+} 
+#viewquestion {
+    bottom: 37px;
+    left: 635px;
+    position: relative;
+}
+#addquelink{
+    position: relative;
+	border: 1px solid #ccc;
+    border-radius: 4px;
+	padding: 5px 17px 7px;
+	bottom: 43px;
+    left: 647px;
+	background-color: #f2f2f2;
+}
+#qestion{
+    left: 258px;
+    position: relative;
+}
+#addque{
+    bottom: 38px;
+	left: 69%;
+    position: relative;
+}
+#method{
+     left: 260px;
+    position: relative;
+   
+}
+#id_save_step {
+    position: relative;
+    right: 5px;
+}
+#id_que_id,#id_step_id,#id_mno,#id_sno{
+display:none;
+}
+#viewstep{
+    left: 258px;
+    position: relative;
+}
+.btncolor
+{
+ background:rgba(0, 0, 0, 0) linear-gradient(to bottom, #009933 0%, #5BA053 100%, #009933 100%) repeat scroll 0 0;
+}
+.btncolor:hover
+{
+  background: rgba(0, 0, 0, 0) linear-gradient(to bottom, #009933 0%, #5BA053 1%, #009933 100%) repeat scroll 0 0;
+}
+.invisible{
+display:none;
+}
+.visible{
+display:visible;
+}
+ .addlink {
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    left: 709px;
+    padding: 7px;
+    position: relative;
+	background-color: #f2f2f2;
+}
+.editlink{
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    padding: 7px;
+    position: relative;
+	background-color: #f2f2f2;
+	left: 481px;
+   
+} 
+.step_scount {
+    left: 258px;
+    position: relative;
+}
+.atto_image_button {
+    display: none;
+}
+#viewlink > a ,#addquelink > a,.editlink > a,.addlink > a{
+    color: #333;
+    text-decoration: none !important;
+}
+@media only screen and (device-width: 2560px) and (device-height: 1440px) 
+{
+#addquelink{
+    position: relative;
+	border: 1px solid #ccc;
+    border-radius: 4px;
+	padding: 5px 17px 7px;
+	bottom: 43px;
+    left: 990px;
+	background-color:#f2f2f2;
+}
+#viewquestion {
+  
+     left:980px; 
+    position: relative;
+}
+#viewlink_que{
+    position: relative;
+	bottom: 43px;
+    left: 1124px
+} 
+}
+@media only screen and (device-width: 1600px) and (device-height: 900px) 
+{
+  #addquelink{
+    position: relative;
+	border: 1px solid #ccc;
+    border-radius: 4px;
+	padding: 5px 17px 7px;
+	bottom: 43px;
+    left: 890px;
+	background-color:#f2f2f2;
+}
+
+#viewquestion {
+ 
+     left: 880px; 
+    position: relative;
+}
+#viewlink_que{
+    position: relative;
+	bottom: 43px;
+    left: 1024px
+} 
+}

@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<XMLDB PATH="blocks/odev_mathematics/db" VERSION="20101203" COMMENT="XMLDB"
+    xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+    xsi:noNamespaceSchemaLocation="../../../lib/xmldb/xmldb.xsd">
+
+<TABLES>
+ <TABLE NAME="block_maths_question" COMMENT="Default comment for maths block, please edit me" NEXT="block_maths_answer">
+<FIELDS>
+<FIELD NAME="id" TYPE="int" LENGTH="10" NOTNULL="true" UNSIGNED="true" SEQUENCE="true"/>
+<FIELD NAME="question_type" TYPE="text"  UNSIGNED="true" SEQUENCE="false" COMMENT="comment for question type"/>  
+<FIELD NAME="question_desc" TYPE="text"  UNSIGNED="true" SEQUENCE="false" COMMENT="comment for question description"/>  
+<FIELD NAME="weightage" TYPE="int"  LENGTH="10" UNSIGNED="true" SEQUENCE="false" />   	
+<FIELD NAME="qdate" TYPE="text"   UNSIGNED="true" SEQUENCE="false" COMMENT="comment for datetime"/>  	
+</FIELDS>
+<KEYS>
+<KEY NAME="primary" TYPE="primary" FIELDS="id"/>
+</KEYS>
+</TABLE>
+<TABLE NAME="block_maths_answer" COMMENT="Default comment for maths block, please edit me" PREVIOUS="block_maths_question" >
+<FIELDS>
+<FIELD NAME="id" TYPE="int" LENGTH="10" NOTNULL="true" UNSIGNED="true" SEQUENCE="true"/>
+<FIELD NAME="qid" TYPE="int"  LENGTH="10" UNSIGNED="true" SEQUENCE="false" />  
+<FIELD NAME="method" TYPE="int"  LENGTH="10" UNSIGNED="true" SEQUENCE="false" />  
+<FIELD NAME="step_no" TYPE="int"  LENGTH="10" UNSIGNED="true" SEQUENCE="false" />  
+<FIELD NAME="step" TYPE="text"  UNSIGNED="true" SEQUENCE="false" />  
+<FIELD NAME="step_weigt" TYPE="text"  UNSIGNED="true" SEQUENCE="false" COMMENT="comment for step"/>  
+<FIELD NAME="step_desc" TYPE="text"  UNSIGNED="true" SEQUENCE="false" COMMENT="comment for step description"/>  
+</FIELDS>
+<KEYS>
+<KEY NAME="primary" TYPE="primary" FIELDS="id"/>
+</KEYS>
+</TABLE>
+	
+</TABLES>
+</XMLDB>
